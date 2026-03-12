@@ -1,7 +1,7 @@
 # Show Last Updated Date For MS Learn
 
 A Chrome extension that surfaces the **"Last updated"** date from the bottom of Microsoft Learn article pages and moves it into the top metadata bar — so it's always visible without scrolling.
-
+<br />
 <img width="810" height="616" alt="image" src="https://github.com/user-attachments/assets/5b74fbe8-e4d7-42b9-95c0-54cfee8142a0" />
 
 ## Quickstart
