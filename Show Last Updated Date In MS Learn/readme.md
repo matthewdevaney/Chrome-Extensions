@@ -10,9 +10,9 @@ A Chrome extension that surfaces the **"Last updated"** date from the bottom of 
 
 ### Installation
 
-1. **Download the files from this repo to any folder on your machine**
+1. **Download the files from the "src" folder to any folder on your machine**
 
-   Example: 'C:/ChromeExtensions/ShowLastUpdatedMSLearn'
+   Example: `C:/ChromeExtensions/ShowLastUpdatedMSLearn`
 
 2. **Open Chrome's extension manager**
 
