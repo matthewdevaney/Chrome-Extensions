@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Show Last Updated Date For MS Learn",
+  "version": "0.1",
+  "description": "Moves the article-metadata-footer into the article-metadata header bar on Microsoft Learn pages.",
+  "permissions": ["scripting", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://learn.microsoft.com/*"],
+      "js": ["script.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Show Last Updated Date For MS Learn"
+  }
+}
