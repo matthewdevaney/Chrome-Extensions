@@ -1,0 +1,55 @@
+# Show Last Updated Date For MS Learn
+
+A Chrome extension that surfaces the **"Last updated"** date from the bottom of Microsoft Learn article pages and moves it into the top metadata bar — so it's always visible without scrolling.
+
+## Quickstart
+
+### Prerequisites
+
+- Google Chrome (or any Chromium-based browser that supports unpacked extensions)
+
+### Installation
+
+1. **Clone or download the files from this repository**
+
+   ```bash
+   git clone https://github.com/<your-username>/<your-repo>.git
+   ```
+
+2. **Open Chrome's extension manager**
+
+   Navigate to `chrome://extensions` in the address bar.
+
+3. **Enable Developer mode**
+
+   Toggle the **Developer mode** switch in the top-right corner of the page.
+
+4. **Load the unpacked extension**
+
+   - Click **Load unpacked**
+   - Browse to and select the `ext/` folder inside this repository
+   - Click **Select Folder**
+
+5. **Confirm the extension is active**
+
+   The extension **Show Last Updated Date For MS Learn** should now appear in the list with a blue toggle indicating it is enabled.
+
+### Usage
+
+Navigate to any article on [Microsoft Learn](https://learn.microsoft.com/). The last-updated date will automatically appear in the top metadata bar.
+
+To manually trigger the script (e.g. after a client-side navigation), click the extension icon in the Chrome toolbar and press **Run**.
+
+## Project structure
+
+```
+ext/
+├── manifest.json   # Extension manifest (Manifest V3)
+├── script.js       # Content script — DOM manipulation logic
+├── popup.html      # Toolbar popup UI
+└── popup.js        # Popup logic — injects script.js on demand
+```
+
+## License
+
+MIT
